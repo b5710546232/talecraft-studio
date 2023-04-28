@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.split {
+    display: flex;
+    flex-direction: row;
+}
+
+.gutter {
+    background-color: rgb(229 231 235);
+    /* background-color: #fff; */
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.gutter.gutter-horizontal {
+    /* background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAeCAYAAADkftS9AAAAIklEQVQoU2M4c+bMfxAGAgYYmwGrIIiDjrELjpo5aiZeMwF+yNnOs5KSvgAAAABJRU5ErkJggg=='); */
+    cursor: col-resize;
+}
+
+.font-figer-paint{
+    font-family: 'Finger Paint', cursive;
+}
+
+.font-school-bell{
+    font-family: 'Schoolbell', cursive;
+}
+
+.font-lato{
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: 0;
+  }
